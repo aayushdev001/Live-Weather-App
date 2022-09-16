@@ -1,0 +1,45 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css);
+#card{
+    /* border: 2px solid white; */
+    border-radius: 20px;
+    box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3),
+    0 17px 17px 0 rgba(0, 0, 0, 0.15);
+}
+#card i{
+    color: rgb(0, 0, 0);
+    font-size: 100px;
+}
+.weather-icon{
+    background-color: white;
+    height: 164px;;
+    /* border-radius: 20px; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.weather-details-1{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 164px;
+}
+.weather-details-1 div{
+    width: 33.3333333%;
+}
+.temperature{
+font-size: 87px;
+}
+.time{
+    background-color: #0d6efd;
+    height: 100%;
+}
+.weather-details-2{
+    font-weight: 500;
+    background-color: white;
+    height: 164px;
+    /* border-radius: 20px; */
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#weather-details-2 i{
+    font-size: 33px;
+    color: #0d6efd;
+}
